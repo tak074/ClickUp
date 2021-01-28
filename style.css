@@ -6,6 +6,7 @@ body {
 }
 .mainContainer {
   margin-left: 240px;
+  margin-right: 240px;
   margin-top: 59px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -56,7 +57,7 @@ navigation bar section
 /*request button*/
 .requestButton {
   display: inline-block;
-  margin-left: 418px;
+  margin-left: 385px;
   height: 60px;
   width: 210px;
   background: #FFFFFF;
@@ -178,16 +179,17 @@ part 2
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
 }
+/* image */
 .partTwo image {
   width: 477px;
   height: 504px;
 }
+/* texts container */
 #partTwoTexts {
   width: 525px;
   margin-top: -395px;
   margin-left: 550px;
 }
-
 #partTwoTexts div {
   font-family: Helvetica;
   font-style: normal;
@@ -204,5 +206,106 @@ part 2
   font-weight: 500;
   font-size: 18px;
   line-height: 160%;
+  color: #4B5D68;
+}
+
+/*
+/////////////////////////
+features part
+*/
+/* headings */
+
+#featuresHeading{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  width: 405px;
+  height: 52px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  /* identical to box height, or 52px */
+  align-items: center;
+  text-align: center;
+  color: #212353;
+}
+#featuresText{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 584px;
+  height: 58px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  align-items: center;
+  text-align: center;
+  color: #4B5D68;
+ }
+
+/* learn more section of each sections */
+#sectionLearnMore {
+  width: 127px;
+  height: 26px;
+}
+#sectionLearnMoreText{
+  width: 87px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+#sectionArrowContainer {
+  width: 20px;
+  height: 14px;
+}
+
+/* section1 */
+.section1 image {
+  width: 232px;
+  height: 211px;
+}
+.section1 #textBox {
+  width: 442px;
+  height: 358px;
+  background: #68C9BA;
+  opacity: 0.1;
+  border-radius: 50px;
+}
+.section1 #section1Container {
+  width: 442px;
+  height: 358px;
+}
+.section1 #section1Container #heading {
+  width: 200px;
+  height: 50px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+.section1 #section1Container p {
+  width: 220px;
+  height: 160px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
   color: #4B5D68;
 }
