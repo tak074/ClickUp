@@ -4,19 +4,25 @@ body {
   width : 1600px;
   height : 4350px;
 }
-
+.mainContainer {
+  margin-left: 240px;
+  margin-top: 59px;
+  font-family: 'Montserrat', sans-serif;
+}
+.bottomContainer {
+  margin-left: 240px;
+}
 /*
 ///////////////////////////////////////////////////////////////////
 navigation bar section
 */
 .navBar {
   display : inline-block;
-  font-family: Arial, Helvetica, sans-serif;
 }
 /*logo*/
 .logo {
-  margin-left : 240px;
-  margin-top : 59px;
+  /* margin-left : 240px;
+  margin-top : 59px; */
   display: inline-block;
 }
 .logoDots {
@@ -93,4 +99,71 @@ navigation bar section
   padding: 6px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+
+/*
+//////////////////////////////////////////
+part 1
+*/
+
+/* headline */
+.partOneHeadline {
+  margin-top: 130px;
+  width: 645px;
+  height: 464px;
+}
+.partOneHeadline div {
+  width: 645px;
+  height: 184px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+.partOneHeadline p {
+  margin-top: 50px;
+  width: 430px;
+  height: 120px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+.partOneHeadline button {
+  padding: 0px;
+  border: none;
+  background: #9C69E2;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+#learnMoreContainer {
+  width: 170px;
+  height: 60px;
+  background: #9C69E2;
+  border-radius: 50px;
+}
+#learnMore {
+  width: 96px;
+  height: 29px;
+  margin: 16px 37px 15px 37px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#image1 {
+  margin-top: -370px;
+  margin-left: 400px;
+  width: 885px;
+  height: 468px;
 }
