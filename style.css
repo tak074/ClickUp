@@ -21,8 +21,6 @@ navigation bar section
 }
 /*logo*/
 .logo {
-  /* margin-left : 240px;
-  margin-top : 59px; */
   display: inline-block;
 }
 .logoDots {
@@ -74,7 +72,7 @@ navigation bar section
   margin: auto 0px auto 0px;
   display: inline-block;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 16px;
   line-height: 160%;
 }
@@ -105,7 +103,6 @@ navigation bar section
 //////////////////////////////////////////
 part 1
 */
-
 /* headline */
 .partOneHeadline {
   margin-top: 130px;
@@ -118,7 +115,7 @@ part 1
   font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 88px;
   line-height: 110%;
   display: flex;
   align-items: center;
@@ -134,6 +131,7 @@ part 1
   line-height: 160%;
   color: #4B5D68;
 }
+/* learn more button */
 .partOneHeadline button {
   padding: 0px;
   border: none;
@@ -160,10 +158,51 @@ part 1
   text-align: center;
   color: #FFFFFF;
 }
-
+/* image */
 #image1 {
   margin-top: -370px;
   margin-left: 400px;
   width: 885px;
   height: 468px;
+}
+
+/*
+//////////////////////
+part 2
+*/
+/* container */
+.partTwo {
+  margin-top: 102.8px;
+  width: 1157px;
+  height: 560px;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
+.partTwo image {
+  width: 477px;
+  height: 504px;
+}
+#partTwoTexts {
+  width: 525px;
+  margin-top: -395px;
+  margin-left: 550px;
+}
+
+#partTwoTexts div {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+#partTwoTexts p {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
 }
