@@ -5,18 +5,26 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 <body>
-  <div>
-    <div class = "navBar">image</div>
-    <div class = "navBar">
-      <div id = "menu"><b>About</b></div>
+  <div class = "navBar">
+    <div class = "logo">
+      <span class = "logoDots" id = "firstDot"></span>
+      <span class = "logoDots" id = "secondDot"></span>
+    </div>
+    <div class = "menuBar">
+      <div id = "selected">About</div>
       <div id = "menu">Help</div>
       <div id = "menu">Features</div>
       <div id = "menu">Signup</div>
     </div>
-    <div class = "navBar" id = "requestButtonContiner">
-      <div id = "text"><b>Request Demo</b></div>
-      <div id = "arrow"></div>
-    </div>
+    <button class = "requestButton">
+      <div id = "buttonContainer">
+        <div id = "buttonText">Request Demo</div>
+        <div id = "arrowContainer">
+          <hr id = "arrow">
+          <i id = "arrowHead"></i>
+        </div>
+      </div>
+    </button>
   </div>
 </body>
 </html>
