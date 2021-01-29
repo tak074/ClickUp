@@ -306,7 +306,7 @@ features part
   color: #4B5D68;
 }
 /* background */
-#sectionBackground {
+.sectionBackground {
   width: 442px;
   height: 358px;
 }
@@ -365,11 +365,15 @@ features part
 }
 /* section4 */
 #image6 {
+  position: absolute;
   width: 230px;
   height: 201px;
-  margin-right: -130px;
-  margin-bottom: 55px;
-  margin-left:5px;
+  margin-right: -118px;
+  margin-top: 86px;
+  margin-left: 5px;
+}
+#background6 {
+  margin-left: 110px;
 }
 #shape5 {
   margin-left: -451px;
@@ -378,4 +382,116 @@ features part
 #shape6 {
   margin-left: -17px;
   margin-bottom: 20px;
+}
+
+/*
+///////////////////////////
+Testimonials
+*/
+.testimonials {
+  width: 1118px;
+  height: 709px;
+  background: #9C69E2;
+  border-radius: 50px;
+  padding-top: 109px;
+  padding-left: 93px;
+}
+#testimonialsHeading {
+  width: 405px;
+  height: 52px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  /* identical to box height, or 52px */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+/*
+///////////////////////////////////
+break
+*/
+#break{
+  width: 1600px;
+  height: 2px;
+  background: #9C69E2;
+  opacity: 0.2;
+}
+/*
+////////////////////////////////////
+ending
+*/
+#endingTextsContainer {
+  display: inline-block;
+}
+#endingHeading {
+  margin-top: 100px;
+  width: 405px;
+  height: 52px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  /* identical to box height, or 52px */
+
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+#endingText {
+  margin-top: 20px;
+  width: 584px;
+  height: 29px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  color: #4B5D68;
+}
+#endingButtonsContainer {
+  display: inline-block;
+}
+
+#endingLearnMoreContainer {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  margin-top: -60px;
+  margin-left: 185px;
+  background: #F063B8;
+  border-radius: 50px;
+  display: inline-block;
+}
+#endingLearnMore {
+  width: 115;
+  height: 29px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 16px 37px 15px 37px;
+}
+#endingRequestButton {
+  position: absolute;
+  margin-top: -60px;
+  display: inline-block;
+  margin-left: 385px;
+  height: 60px;
+  width: 210px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-style: none;
+  border-color: #FFFFFF;
+  border-radius: 50px;
 }
